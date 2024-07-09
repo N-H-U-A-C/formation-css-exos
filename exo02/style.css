@@ -6,12 +6,12 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
     grid-template-areas: 
-        "header header header header"
-        "menu1 main main menu2"
-        "footer footer footer footer";
+        "header header header"
+        "menu1 main menu2"
+        "footer footer footer";
 }
 
 header {
